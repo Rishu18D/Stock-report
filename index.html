@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Futuristic Stock Market Data</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Stock Market Data</h1>
+        <form id="stockForm">
+            <label for="symbol">Enter Stock Symbol:</label>
+            <div class="input-container">
+                <input type="text" id="symbol" placeholder="e.g., AAPL" required />
+                <button type="button" onclick="getStockData()">Get Data</button>
+            </div>
+        </form>
+        <div id="result" class="result-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #e74c3c;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#stockForm {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 1.2em;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+input {
+    padding: 12px;
+    border: 2px solid #e74c3c;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+    width: 60%;
+    font-size: 1em;
+}
+
+input:focus {
+    border-color: #c0392b;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.result-container {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+}
+
+.result-container h2 {
+    color: #e74c3c;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.result-container p {
+    margin: 10px 0;
+    color: #333;
+    font-size: 1.1em;
+}
